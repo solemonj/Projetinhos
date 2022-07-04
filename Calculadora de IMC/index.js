@@ -25,7 +25,7 @@ function calcular(event){
         resultado.innerHTML = 'Seu IMC é ' +imc.toFixed(2)+ ' !'+'<br> Cuidado, você está com obesidade grau I!';        
     } else if (imc>34.9 && imc<=39.9) {
         resultado.innerHTML = 'Seu IMC é ' +imc.toFixed(2)+ ' !'+'<br> Cuidado, você está com obesidade grau II!';        
-    } else if (imc>39.9) {
+    } else {
         resultado.innerHTML = 'Seu IMC é ' +imc.toFixed(2)+ ' !'+'<br> Cuidado, você está com obesidade grau III!';        
     }
 }
