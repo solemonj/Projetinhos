@@ -1,6 +1,6 @@
 # Projetinhos
 
-Me encontre no [LinkedIn](https://www.linkedin.com/in/solemonj/)
+**Me encontre no [LinkedIn](https://www.linkedin.com/in/solemonj/)**
 
 **Calculadora de IMC**
 * [Vídeo Apresentação](https://youtu.be/NI95N1UDOnU)
