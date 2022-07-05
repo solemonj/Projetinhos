@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo do Quermesse</title>
+</head>
+
+
+<body>
+
+    <h1>Bingo do Quermesse</h1>
+    <form id="form" onsubmit="return informar(event)">
+        <label>Digite o maior número do bingo</label> <br>
+        <input type="text" name="maiornumero" id="maiornumero" placeholder="85" /><br>        
+        <input type="submit" value="Informar número">  
+    </form>
+
+    <form id="form3" onsubmit="return limpar(event)">    
+        <input type="submit" value="Limpar dados">  
+    </form>
+    
+    <form id="form2" onsubmit="return sortear(event)">    
+        <input type="submit" value="Sortear">  
+    </form>
+
+
+
+
+
+    <div id="resultado">
+    </div>
+
+
+    <script src="bingo.js"></script>
+</body>
+
+</html>
